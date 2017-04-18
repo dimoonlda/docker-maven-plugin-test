@@ -152,13 +152,16 @@
                                     <port>8092:8092</port>
                                     <port>8093:8093</port>
                                     <port>8094:8094</port>
+                                    <port>11210:11210</port>
                                 </ports>
                                 <wait>
+<!--
                                     <http>
                                         <url>
                                             http://localhost:8091/ui/index.html
                                         </url>
                                     </http>
+-->
                                     <time>40000</time>
                                 </wait>
                             </run>
