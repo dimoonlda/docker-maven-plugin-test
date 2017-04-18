@@ -16,7 +16,7 @@ import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 public class MyCouchbaseConfig extends AbstractCouchbaseConfiguration {
 
     public static final List<String> NODE_LIST = Arrays.asList("localhost");
-    public static final String BUCKET_NAME = "baeldung";
+    public static final String BUCKET_NAME = "test";
     public static final String BUCKET_PASSWORD = "";
 
     @Override

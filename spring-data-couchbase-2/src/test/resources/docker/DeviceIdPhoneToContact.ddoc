@@ -1,7 +1,0 @@
-{
-   "views" : {
-      "byfield" : {
-         "map" : "function (doc, meta) {emit(meta.id, null);}"
-      }
-   }
-}

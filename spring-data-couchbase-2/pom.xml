@@ -144,7 +144,7 @@
                         <image>
                             <name>couchbase-fms</name>
                             <build>
-                                <dockerFileDir>${project.basedir}/src/test/resources/docker</dockerFileDir>
+                                <dockerFileDir>${project.basedir}/src/test/resources/docker/couchbase</dockerFileDir>
                             </build>
                             <run>
                                 <ports>
@@ -162,7 +162,7 @@
                                         </url>
                                     </http>
 -->
-                                    <time>40000</time>
+                                    <time>30000</time>
                                 </wait>
                             </run>
                         </image>
